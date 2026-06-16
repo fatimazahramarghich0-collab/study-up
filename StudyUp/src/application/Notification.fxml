@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="303.0" style="-fx-background-color: #efffb7;;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NotificationController">
+   <children>
+      <VBox alignment="CENTER" layoutX="-5.0" layoutY="-2.0" prefHeight="408.0" prefWidth="311.0" spacing="10.0" style="-fx-background-color: #00beff;;">
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" text="Notifications" textFill="#333333">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <effect>
+                  <Lighting diffuseConstant="0.44" specularConstant="0.67" specularExponent="7.44" surfaceScale="5.8">
+                     <bumpInput>
+                        <Shadow />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#d5e487" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </Label>
+            <ListView fx:id="notificationListView" prefHeight="323.0" prefWidth="296.0" style="-fx-background-color: #efffb7;;" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

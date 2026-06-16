@@ -1,0 +1,17 @@
+#home, #wt, #timer, #calendrier {
+    -fx-background-color: #FDA172; /* Jaune */
+    -fx-text-fill: #FFFFFF; /* Blanc */
+    -fx-font-size: 14px; /* Taille de la police */
+    -fx-pref-width: 100px; /* Largeur préférée */
+    -fx-pref-height: 40px; /* Hauteur préférée */
+    -fx-padding: 5px 10px; /* Marge intérieure */
+    -fx-border-color: transparent; /* Couleur de la bordure */
+    -fx-cursor: hand; /* Curseur de la souris */
+    -fx-background-radius: 5px; /* Rayon du coin */
+    -fx-font-weight: bold; /* Poids de la police */
+}
+
+#home:hover, #wt:hover, #timer:hover, #calendrier:hover {
+    -fx-background-color: #C95B0C; /* Jaune clair */
+    -fx-text-fill: #FFFFFF; /* Blanc */
+}

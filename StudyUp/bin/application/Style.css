@@ -1,0 +1,102 @@
+/* Style pour les boutons de navigation du calendrier */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: black; /* Couleur du texte */
+}
+
+/* Style pour les boutons des jours du calendrier */
+.day-button {
+    -fx-background-color: #f0f0f0; /* Couleur de fond */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+}
+
+/* Style pour les jours de la semaine */
+.weekday {
+    -fx-font-weight: bold; /* Texte en gras */
+}
+
+/* Style pour le titre du calendrier */
+.calendar-title {
+	-fx-background-color: #ffc87b; /* Couleur de fond */
+    -fx-text-fill: #ffc87b; /* Couleur du texte */
+    -fx-font-size: 40px; /* Taille de police */
+    -fx-font-weight: bold; /* Texte en gras */
+    
+}
+
+/* Style pour le tableau */
+.table-view {
+    -fx-background-color: #fff; /* Couleur de fond */
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+}
+
+/* Style pour les lignes du tableau */
+.table-row-cell {
+    -fx-border-color: #ccc; /* Couleur de la bordure */
+}
+
+/* Style pour les cellules du tableau */
+.table-cell {
+	
+    -fx-padding: 5px; /* Espacement intérieur */
+}
+/* Styles for buttons */
+.button {
+    -fx-min-width: 39px; /* Définir la largeur minimale des boutons */
+    -fx-max-width: 30px; /* Définir la largeur maximale des boutons */
+    -fx-min-height: 30px; /* Définir la hauteur minimale des boutons */
+    -fx-max-height: 30px; /* Définir la hauteur maximale des boutons */
+    -fx-background-color: #beefed; /* Définir la couleur de fond des boutons */
+    -fx-border-color: black; /* Définir la couleur de la bordure des boutons */
+    -fx-border-width: 3px; /* Définir l'épaisseur de la bordure des boutons */
+}
+
+/* Styles for gridPane */
+.calendar-grid {
+    -fx-border-color: black; /* Définir la couleur de la bordure du calendrier */
+    -fx-border-width: 1px; /* Définir l'épaisseur de la bordure du calendrier */
+}
+.calendar-grid {
+    -fx-padding: 10px; /* Ajouter de l'espacement autour du calendrier */
+}
+
+/* Style pour le tableau */
+.table-view {
+    -fx-padding: 10px; /* Ajouter de l'espacement autour du tableau */
+     -fx-background-color: White; /* Définir la couleur de fond du tableau */
+}
+
+.root {
+    -fx-background-color: White;}
+.table-cell {
+    -fx-background-color:#deffff; /* Couleur de fond */
+    -fx-text-fill: black; /* Couleur du texte */
+}
+
+/* Style pour le fond des cellules de TableView */
+.table-row-cell {
+	-fx-background-color: #deffff; /* Couleur de fond */
+    -fx-text-fill: black; /* Couleur du texte */
+     
+    
+    -fx-border-width: 0 5px; /* Épaisseur de la bordure (0 haut/bas, 1 à droite/gauche) */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+/* Style pour la première colonne */
+.table-view .column1 {
+    -fx-pref-width: 60%; /* Définir la largeur préférée de la colonne */
+}
+
+/* Style pour la deuxième colonne */
+.table-view .column2 {
+    -fx-pref-width: 40%; /* Définir la largeur préférée de la colonne */
+}
+.button-pressed {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: black; /* Couleur du texte */
+}
+.day-button:pressed {
+    -fx-background-color: #175f9e; /* Couleur de fond lorsque le bouton est pressé */
+    -fx-text-fill: black; /* Couleur du texte */
+}
+/* Style pour la barre supérieure contenant les boutons pour les années et les mois */

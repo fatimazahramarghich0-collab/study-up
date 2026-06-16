@@ -1,0 +1,90 @@
+
+.backT{
+	-fx-background-color : #6DB9EF;
+}
+.rad{
+	-fx-background-radius: 25;
+}
+.button{
+	-fx-background-color: #3081D0;
+}
+
+.root{
+	-jewelsea-lined-notepad:
+          linear-gradient(
+          	from 0px 0px to 0px 11px,
+          	repeat,
+          	gainsboro,
+          	gainsboro 6.25%,
+          	#FFF5C2 6.25%,
+          	#FFF5C2);
+}
+.text-erea{
+	-fx-font-family: "Gotham";
+	-fx-font-color: #D7D7D7;
+	-fx-font-size: 8px;
+}
+.text-area .content{
+	-fx-background-color: -jewelsea-lined-notepad;
+}
+
+.blue-back{
+	-fx-background-color: #00227a;
+}
+.transparent{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.round_layout{
+	-fx-border-radius: 50;
+	-fx-border-color: #D7D7D7;
+}
+.orange-back{
+	-fx-background-color: #ffa297;
+}
+.blue-f-back{
+	-fx-background-color: #0066a8;
+}
+.blue-f-f-back{
+	-fx-background-color: #00c0da;
+}
+.yellow-back{
+	-fx-background-color: #ffc877;
+}
+.btn{
+	-fx-background-color:#6DB9EF;
+	-fx-border-width: 2px 2px 2px 2px;
+	-fx-border-radius: 20px;
+	-fx-border-style: solid;
+	-fx-border-color: #6DB9EF;
+}
+.white-back{
+	-fx-background-color: #fff;
+}
+.selected{
+	-fx-background-color: #fff;
+}
+/* Style pour le TableView */
+.table-view {
+    -fx-background-radius: 25; /* Coins arrondis pour le TableView */
+}
+
+/* Style pour les titres des colonnes */
+.table-view .column-header .label {
+    -fx-background-color: #ffc877; /* Couleur de fond */
+    -fx-text-fill: #ffffff; /* Texte blanc */
+    -fx-background-radius: 25; /* Coins arrondis pour les titres des colonnes */
+}
+
+
+/* Style pour les cellules */
+.table-row-cell {
+    -fx-background-radius: 25; /* Coins arrondis pour les cellules */
+}
+
+/* Style pour le bouton */
+.table-view .button-cell {
+    -fx-background-color: transparent; /* Fond transparent */
+    -fx-background-radius: 0; /* Coins carrés */
+    -fx-padding: 0; /* Pas de rembourrage */
+}
+

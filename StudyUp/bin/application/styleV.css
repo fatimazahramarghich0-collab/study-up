@@ -1,0 +1,24 @@
+/* Style pour le TableView */
+.table-view {
+    -fx-background-radius: 25; /* Coins arrondis pour le TableView */
+}
+
+/* Style pour les titres des colonnes */
+.table-view .column-header .label {
+    -fx-background-color: #ffc877; /* Couleur de fond */
+    -fx-text-fill: #ffffff; /* Texte blanc */
+    -fx-background-radius: 25; /* Coins arrondis pour les titres des colonnes */
+}
+
+
+/* Style pour les cellules */
+.table-row-cell {
+    -fx-background-radius: 25; /* Coins arrondis pour les cellules */
+}
+
+/* Style pour le bouton */
+.table-view .button-cell {
+    -fx-background-color: transparent; /* Fond transparent */
+    -fx-background-radius: 0; /* Coins carrés */
+    -fx-padding: 0; /* Pas de rembourrage */
+}

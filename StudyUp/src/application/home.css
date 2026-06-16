@@ -1,0 +1,36 @@
+#titre{
+	-fx-font-family:"lucida console"
+}
+.custom-button {
+    -fx-background-color: #ff0090;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+       
+    
+}
+#btn1{
+	    -fx-cursor: hand;
+	
+}
+#btn2{
+	    -fx-cursor: hand;
+	
+}
+.custom-button:hover {
+    -fx-background-color: #ff0055;
+   
+    
+}
+#label {
+    -fx-text-fill: blue;
+    -fx-font-family: "Arial";
+}
+
+
+.custom-button:pressed {
+    -fx-background-color: #cc0044;
+}

@@ -1,0 +1,13 @@
+/* styles.css */
+.link-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: blue; /* Couleur du lien */
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif; /* Police du texte */
+    -fx-cursor: hand; /* Curseur de la souris en forme de main */
+}
+
+.link-button:hover {
+    -fx-text-fill: darkblue; /* Couleur du lien au survol */
+}

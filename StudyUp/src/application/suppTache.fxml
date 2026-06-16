@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="285.0" prefWidth="388.0" style="-fx-background-color: red;" styleClass="backT" stylesheets="@Project.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerSuppTache">
+   <children>
+      <TextField fx:id="TacheName" layoutX="78.0" layoutY="101.0" prefHeight="42.0" prefWidth="231.0" promptText="tache name" style="-fx-background-radius: 25;">
+         <font>
+            <Font name="Ebrima Bold" size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="suppTache" layoutX="227.0" layoutY="187.0" mnemonicParsing="false" onAction="#supprimerTache" prefHeight="34.0" prefWidth="82.0" style="-fx-background-radius: 25; -fx-background-color: #ffb2b2; -fx-cursor: hand;" stylesheets="@dashb.css" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="annulertache" layoutX="78.0" layoutY="187.0" mnemonicParsing="false" onAction="#annulerTache" prefHeight="34.0" prefWidth="82.0" style="-fx-background-radius: 25; -fx-background-color: #ffb2b2; -fx-cursor: hand;" stylesheets="@dashb.css" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="78.0" layoutY="46.0" text="Supprimer tache" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+/* Styles pour le graphique à barres */
+
+.root {
+    -fx-background-color: #ffffff; /* Couleur de fond de l'interface */
+}
+.chart-bar {
+    -fx-background-color: #0896ff; /* Couleur de fond */
+}
+
+.axis {
+    -fx-stroke: #0896ff; /* Couleur des axes */
+}
+
+.axis-label {
+    -fx-text-fill: #0896ff; /* Couleur des étiquettes d'axe */
+}
+
+.series0 > .default-color0.chart-bar {
+    -fx-bar-fill:#0896ff; /* Couleur des barres */
+}
+
+/* Styles pour le graphique circulaire */
+.chart-pie {
+    -fx-background-color: #beefed; /* Couleur de fond */
+}
+
+.chart-pie-label-line {
+    -fx-stroke:#0896ff; /* Couleur des lignes de l'étiquette */
+}
+
+.chart-pie-label-text-fill {
+    -fx-fill: #336699; /* Couleur des étiquettes */
+}

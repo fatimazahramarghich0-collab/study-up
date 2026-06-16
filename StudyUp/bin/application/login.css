@@ -1,0 +1,60 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom, #f5f5f5,  #87CEEB);
+}
+
+Label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #333; /* Dark gray text color */
+}
+
+TextField, PasswordField {
+    -fx-prompt-text-fill: #999; /* Light gray prompt text color */
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-border-color: #ccc; /* Light gray border color */
+}
+/* styles.css */
+.link-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-text-fill: blue; /* Couleur du lien */
+    -fx-font-size: 14px;
+    -fx-font-family: Arial, sans-serif; /* Police du texte */
+    -fx-cursor: hand; /* Curseur de la souris en forme de main */
+}
+
+.link-button:hover {
+    -fx-text-fill: darkblue; /* Couleur du lien au survol */
+}
+
+
+Button {
+    -fx-background-color: #007bff; /* Blue button color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px; /* Rounded corners */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 10,0,0,1 );
+    -fx-cursor: hand;
+    -fx-padding: 8px 15px;
+    -fx-transition: all 0.3s;
+}
+
+Button:hover {
+    -fx-background-color: #0056b3; /* Darker blue color on hover */
+}
+
+#messageLabel {
+     -fx-font-size: 12px;
+     -fx-font-family:cursive;
+    -fx-translate-y: 17px; /* Move the label down by 2 pixels */
+    
+    }
+
+/* Animation for button press */
+.button:pressed {
+    -fx-background-color: #0056b3; /* Darker blue color on press */
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.6) , 4,0,0,2 );
+    -fx-translate-y: 2px; /* Move button down slightly */
+}

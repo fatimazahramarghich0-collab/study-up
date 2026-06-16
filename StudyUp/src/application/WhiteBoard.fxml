@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="600.0" prefWidth="600.0" stylesheets="@Project.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="application.WhiteBoard">
+
+    <top>
+        <VBox>
+            <MenuBar>
+                <Menu text="File">
+                    <MenuItem onAction="#onSave" text="Save" />
+                    <MenuItem onAction="#onExit" text="Exit" />
+                </Menu>
+            <styleClass>
+               <String fx:value="backT" />
+               <String fx:value="btn" />
+            </styleClass>
+                
+                
+            </MenuBar>
+            <ToolBar styleClass="backT">
+                <HBox alignment="CENTER" spacing="5">
+                    <TextField fx:id="brushSize" style="-fx-background-color: #fff;" text="18">
+                  <styleClass>
+                     <String fx:value="btn" />
+                     <String fx:value="rad" />
+                  </styleClass></TextField>
+                    <ColorPicker fx:id="colorPicker" style="-fx-background-color: #3081D0;">
+                  <styleClass>
+                     <String fx:value="btn" />
+                     <String fx:value="rad" />
+                  </styleClass></ColorPicker>
+                    <CheckBox fx:id="eraser" styleClass="rad" text="Eraser" />
+                    
+
+                </HBox>
+            </ToolBar>
+        </VBox>
+    </top>
+
+    <center>
+        <Canvas fx:id="canvas" height="600" width="600" />
+    </center>
+
+</BorderPane>
